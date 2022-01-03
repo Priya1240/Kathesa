@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <>
     <section className="w-full h-screen bg-grass bg-cover bg-center">
-      <h1 className="shadow-sm  rounded-lg w-80 bg-sky-700">Hello World</h1>
+      <h1 className="shadow-sm  rounded-sm w-80 bg-sky-700">Kathesa</h1>
       
     </section>
       </>
