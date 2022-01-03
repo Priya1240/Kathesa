@@ -4,7 +4,12 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: (theme) => ({
+        grass: "url('../photos/shutterstock_572451373.jpg')",
+      }),
+    },
   },
   plugins: [],
 }
+
