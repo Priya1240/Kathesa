@@ -8,6 +8,9 @@ module.exports = {
       backgroundImage: (theme) => ({
         grass: "url('../photos/shutterstock_572451373.jpg')",
       }),
+      colors: (theme) => ({
+        navyellow: "#EAF205"
+      })
     },
   },
   plugins: [],
